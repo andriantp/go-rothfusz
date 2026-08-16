@@ -6,7 +6,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/andriantp/go-rothfusz/rothfusz"
+	"github.com/andriantp/go-rothfusz"
 )
 
 func main() {

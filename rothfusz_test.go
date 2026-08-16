@@ -1,10 +1,10 @@
-package rothfusz
+package rothfusz_test
 
 import (
 	"encoding/json"
 	"testing"
 
-	"github.com/andriantp/go-rothfusz/rothfusz"
+	"github.com/andriantp/go-rothfusz"
 )
 
 func TestRothfusz(t *testing.T) {
