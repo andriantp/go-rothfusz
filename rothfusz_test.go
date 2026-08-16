@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/andriantp/go-rothfusz"
+	rothfusz "github.com/andriantp/go-rothfusz/v2"
 )
 
 func TestRothfusz(t *testing.T) {
