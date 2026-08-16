@@ -34,11 +34,11 @@ type repo struct {
 	humidRH       float64
 }
 
-type RepositoryI interface {
+type Calculator interface {
 	CalculateHeatIndex(tempC float64, rh float64) *Result
 }
 
-func NewRothfusz(minValidTempC float64, humidRH float64) RepositoryI {
+func NewRothfusz(minValidTempC float64, humidRH float64) Calculator {
 	return &repo{
 		minValidTempC: minValidTempC,
 		humidRH:       humidRH,
