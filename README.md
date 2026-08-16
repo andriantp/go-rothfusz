@@ -18,7 +18,7 @@ The library helps determine how hot the weather actually feels by combining air 
 ## Installation
 
 ```bash
-go get github.com/yourusername/rothfusz
+go get github.com/andriantp/rothfusz
 ```
 
 ## Quick Example
