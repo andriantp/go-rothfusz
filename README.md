@@ -32,7 +32,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/andriantp/go-rothfusz/rothfusz"
+	rothfusz "github.com/andriantp/go-rothfusz/v2"
 )
 
 func main() {
